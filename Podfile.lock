@@ -1,0 +1,21 @@
+PODS:
+  - Alamofire (4.4.0)
+  - Eureka (2.0.1)
+  - SAConfettiView (0.1.8)
+  - SCLAlertView (0.7.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - Eureka (~> 2.0)
+  - SAConfettiView
+  - SCLAlertView
+
+SPEC CHECKSUMS:
+  Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
+  Eureka: ae837bb1dfae0c07bc1bda7aeef87876eeb537c2
+  SAConfettiView: c87031a2280659261b730fce3669fb10e73636ee
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+
+PODFILE CHECKSUM: d7d6a9d06f086862f3c0c875cd082b4a1d3adcb5
+
+COCOAPODS: 1.2.0

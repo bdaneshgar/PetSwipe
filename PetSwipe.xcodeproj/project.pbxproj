@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A628C37069912841D3C32C61 /* Pods_PetSwipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE13EF99F1ADCB4F81050BC7 /* Pods_PetSwipe.framework */; };
+		C61F369C1E86D8CA007B14DE /* AdoptionFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61F369B1E86D8CA007B14DE /* AdoptionFormViewController.swift */; };
+		C61F369F1E86DBB8007B14DE /* PetSwipeSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = C61F369E1E86DBB8007B14DE /* PetSwipeSectionHeader.xib */; };
+		C6372B5A1E6E236500F31DC4 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6372B591E6E236500F31DC4 /* OverlayView.swift */; };
+		C66E9E031E58E90100C1A780 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E9E021E58E90100C1A780 /* Pet.swift */; };
+		C66E9E091E58F01C00C1A780 /* DraggableViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E9E081E58F01C00C1A780 /* DraggableViewBackground.swift */; };
+		C66E9E0C1E58F02700C1A780 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C66E9E0A1E58F02700C1A780 /* DraggableView.swift */; };
+		C66E9E111E591BE400C1A780 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C66E9E101E591BE400C1A780 /* CoreLocation.framework */; };
+		C66E9E161E59427600C1A780 /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C66E9E151E59427600C1A780 /* Lobster-Regular.ttf */; };
+		C68468A41E860C88001DE5D7 /* AKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C68468A31E860C88001DE5D7 /* AKPickerView.swift */; };
+		C68C44FE1E748397002B4753 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68C44FD1E748397002B4753 /* CoreData.framework */; };
+		C68F76A71E8097DF00010D45 /* PetSwipe.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = C68F76A61E8097DF00010D45 /* PetSwipe.xcdatamodel */; };
+		C6CDABA51E85D613004F6773 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6CDABA41E85D613004F6773 /* PetDetailViewController.swift */; };
+		C6F1E04A1E65E2ED00632EBE /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F1E0491E65E2ED00632EBE /* SWRevealViewController.m */; };
+		C6F1E04C1E65E9EA00632EBE /* LikesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F1E04B1E65E9EA00632EBE /* LikesViewController.swift */; };
 		C6FFC8801E55092800FA5BC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFC87F1E55092800FA5BC4 /* AppDelegate.swift */; };
 		C6FFC8821E55092800FA5BC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FFC8811E55092800FA5BC4 /* ViewController.swift */; };
 		C6FFC8851E55092800FA5BC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6FFC8831E55092800FA5BC4 /* Main.storyboard */; };
@@ -34,6 +49,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08AD598DCED0BACF63137E5B /* Pods-PetSwipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSwipe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetSwipe/Pods-PetSwipe.debug.xcconfig"; sourceTree = "<group>"; };
+		C61F369B1E86D8CA007B14DE /* AdoptionFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdoptionFormViewController.swift; sourceTree = "<group>"; };
+		C61F369E1E86DBB8007B14DE /* PetSwipeSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PetSwipeSectionHeader.xib; sourceTree = "<group>"; };
+		C6372B591E6E236500F31DC4 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
+		C66E9E021E58E90100C1A780 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		C66E9E081E58F01C00C1A780 /* DraggableViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableViewBackground.swift; sourceTree = "<group>"; };
+		C66E9E0A1E58F02700C1A780 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		C66E9E101E591BE400C1A780 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C66E9E151E59427600C1A780 /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		C68468A01E860C5F001DE5D7 /* AKPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AKPickerView.h; sourceTree = "<group>"; };
+		C68468A31E860C88001DE5D7 /* AKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AKPickerView.swift; sourceTree = "<group>"; };
+		C68C44FD1E748397002B4753 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C68F76A61E8097DF00010D45 /* PetSwipe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PetSwipe.xcdatamodel; sourceTree = "<group>"; };
+		C6CDABA41E85D613004F6773 /* PetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDetailViewController.swift; sourceTree = "<group>"; };
+		C6F1E0471E65E2ED00632EBE /* PetSwipe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PetSwipe-Bridging-Header.h"; sourceTree = "<group>"; };
+		C6F1E0481E65E2ED00632EBE /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C6F1E0491E65E2ED00632EBE /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C6F1E04B1E65E9EA00632EBE /* LikesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikesViewController.swift; sourceTree = "<group>"; };
 		C6FFC87C1E55092800FA5BC4 /* PetSwipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetSwipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FFC87F1E55092800FA5BC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6FFC8811E55092800FA5BC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +80,8 @@
 		C6FFC89B1E55092900FA5BC4 /* PetSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetSwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FFC89F1E55092900FA5BC4 /* PetSwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSwipeUITests.swift; sourceTree = "<group>"; };
 		C6FFC8A11E55092900FA5BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90E0B411255D74F985BD1B9 /* Pods-PetSwipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetSwipe.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetSwipe/Pods-PetSwipe.release.xcconfig"; sourceTree = "<group>"; };
+		EE13EF99F1ADCB4F81050BC7 /* Pods_PetSwipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PetSwipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C68C44FE1E748397002B4753 /* CoreData.framework in Frameworks */,
+				C66E9E111E591BE400C1A780 /* CoreLocation.framework in Frameworks */,
+				A628C37069912841D3C32C61 /* Pods_PetSwipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +112,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10F851D831B12A168CCFCAAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C68C44FD1E748397002B4753 /* CoreData.framework */,
+				C66E9E101E591BE400C1A780 /* CoreLocation.framework */,
+				EE13EF99F1ADCB4F81050BC7 /* Pods_PetSwipe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		42D38EA9971934F1AD7977B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08AD598DCED0BACF63137E5B /* Pods-PetSwipe.debug.xcconfig */,
+				D90E0B411255D74F985BD1B9 /* Pods-PetSwipe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C61F369A1E86D896007B14DE /* Likes */ = {
+			isa = PBXGroup;
+			children = (
+				C6F1E04B1E65E9EA00632EBE /* LikesViewController.swift */,
+				C61F369E1E86DBB8007B14DE /* PetSwipeSectionHeader.xib */,
+				C61F369B1E86D8CA007B14DE /* AdoptionFormViewController.swift */,
+			);
+			name = Likes;
+			sourceTree = "<group>";
+		};
+		C68468A51E860D6C001DE5D7 /* AKPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				C68468A01E860C5F001DE5D7 /* AKPickerView.h */,
+				C68468A31E860C88001DE5D7 /* AKPickerView.swift */,
+			);
+			name = AKPickerView;
+			sourceTree = "<group>";
+		};
+		C6F1E0461E65E29000632EBE /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C6F1E0481E65E2ED00632EBE /* SWRevealViewController.h */,
+				C6F1E0491E65E2ED00632EBE /* SWRevealViewController.m */,
+				C6F1E0471E65E2ED00632EBE /* PetSwipe-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		C6F1E04D1E65E9FA00632EBE /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C6FFC8811E55092800FA5BC4 /* ViewController.swift */,
+				C66E9E081E58F01C00C1A780 /* DraggableViewBackground.swift */,
+				C66E9E0A1E58F02700C1A780 /* DraggableView.swift */,
+				C6372B591E6E236500F31DC4 /* OverlayView.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
 		C6FFC8731E55092800FA5BC4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +178,8 @@
 				C6FFC8931E55092900FA5BC4 /* PetSwipeTests */,
 				C6FFC89E1E55092900FA5BC4 /* PetSwipeUITests */,
 				C6FFC87D1E55092800FA5BC4 /* Products */,
+				42D38EA9971934F1AD7977B7 /* Pods */,
+				10F851D831B12A168CCFCAAE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +196,17 @@
 		C6FFC87E1E55092800FA5BC4 /* PetSwipe */ = {
 			isa = PBXGroup;
 			children = (
+				C68468A51E860D6C001DE5D7 /* AKPickerView */,
+				C6F1E0461E65E29000632EBE /* SWRevealViewController */,
 				C6FFC87F1E55092800FA5BC4 /* AppDelegate.swift */,
-				C6FFC8811E55092800FA5BC4 /* ViewController.swift */,
+				C6F1E04D1E65E9FA00632EBE /* Search */,
+				C61F369A1E86D896007B14DE /* Likes */,
+				C6CDABA41E85D613004F6773 /* PetDetailViewController.swift */,
+				C66E9E021E58E90100C1A780 /* Pet.swift */,
 				C6FFC8831E55092800FA5BC4 /* Main.storyboard */,
 				C6FFC8861E55092800FA5BC4 /* Assets.xcassets */,
+				C66E9E151E59427600C1A780 /* Lobster-Regular.ttf */,
+				C68F76A61E8097DF00010D45 /* PetSwipe.xcdatamodel */,
 				C6FFC8881E55092800FA5BC4 /* LaunchScreen.storyboard */,
 				C6FFC88B1E55092800FA5BC4 /* Info.plist */,
 			);
@@ -132,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C6FFC8A41E55092900FA5BC4 /* Build configuration list for PBXNativeTarget "PetSwipe" */;
 			buildPhases = (
+				06B523AAF678D693DE3D8366 /* [CP] Check Pods Manifest.lock */,
 				C6FFC8781E55092800FA5BC4 /* Sources */,
 				C6FFC8791E55092800FA5BC4 /* Frameworks */,
 				C6FFC87A1E55092800FA5BC4 /* Resources */,
+				5A032CAF6FCF48F24F4CED64 /* [CP] Embed Pods Frameworks */,
+				66F727475EFB825855C60269 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +302,8 @@
 				TargetAttributes = {
 					C6FFC87B1E55092800FA5BC4 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = H5FEGHMVQ5;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					C6FFC88F1E55092900FA5BC4 = {
@@ -233,7 +344,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6FFC88A1E55092800FA5BC4 /* LaunchScreen.storyboard in Resources */,
+				C66E9E161E59427600C1A780 /* Lobster-Regular.ttf in Resources */,
 				C6FFC8871E55092800FA5BC4 /* Assets.xcassets in Resources */,
+				C61F369F1E86DBB8007B14DE /* PetSwipeSectionHeader.xib in Resources */,
 				C6FFC8851E55092800FA5BC4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,11 +367,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06B523AAF678D693DE3D8366 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A032CAF6FCF48F24F4CED64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetSwipe/Pods-PetSwipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66F727475EFB825855C60269 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetSwipe/Pods-PetSwipe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C6FFC8781E55092800FA5BC4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F1E04A1E65E2ED00632EBE /* SWRevealViewController.m in Sources */,
+				C6372B5A1E6E236500F31DC4 /* OverlayView.swift in Sources */,
+				C66E9E0C1E58F02700C1A780 /* DraggableView.swift in Sources */,
+				C68468A41E860C88001DE5D7 /* AKPickerView.swift in Sources */,
+				C6CDABA51E85D613004F6773 /* PetDetailViewController.swift in Sources */,
+				C66E9E091E58F01C00C1A780 /* DraggableViewBackground.swift in Sources */,
+				C61F369C1E86D8CA007B14DE /* AdoptionFormViewController.swift in Sources */,
+				C6F1E04C1E65E9EA00632EBE /* LikesViewController.swift in Sources */,
+				C66E9E031E58E90100C1A780 /* Pet.swift in Sources */,
+				C68F76A71E8097DF00010D45 /* PetSwipe.xcdatamodel in Sources */,
 				C6FFC8821E55092800FA5BC4 /* ViewController.swift in Sources */,
 				C6FFC8801E55092800FA5BC4 /* AppDelegate.swift in Sources */,
 			);
@@ -410,25 +581,39 @@
 		};
 		C6FFC8A51E55092900FA5BC4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08AD598DCED0BACF63137E5B /* Pods-PetSwipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H5FEGHMVQ5;
 				INFOPLIST_FILE = PetSwipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Brian.PetSwipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetSwipe/PetSwipe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		C6FFC8A61E55092900FA5BC4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90E0B411255D74F985BD1B9 /* Pods-PetSwipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = H5FEGHMVQ5;
 				INFOPLIST_FILE = PetSwipe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Brian.PetSwipe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PetSwipe/PetSwipe-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,6 +690,7 @@
 				C6FFC8A61E55092900FA5BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6FFC8A71E55092900FA5BC4 /* Build configuration list for PBXNativeTarget "PetSwipeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +699,7 @@
 				C6FFC8A91E55092900FA5BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6FFC8AA1E55092900FA5BC4 /* Build configuration list for PBXNativeTarget "PetSwipeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +708,7 @@
 				C6FFC8AC1E55092900FA5BC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

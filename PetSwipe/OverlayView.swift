@@ -27,6 +27,7 @@ class OverlayView: UIView{
         self.backgroundColor = UIColor.white
         imageView = UIImageView(image: UIImage(named: "noButton"))
         self.addSubview(imageView)
+        self.alpha = 0.0
     }
 
     func setMode(_ mode: GGOverlayViewMode) -> Void {

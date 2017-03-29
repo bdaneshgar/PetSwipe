@@ -3,6 +3,7 @@
 //  TinderSwipeCardsSwift
 //
 //  Created by Gao Chao on 4/30/15.
+//  Edited by Brian Daneshgar on 2/18/17.
 //  Copyright (c) 2015 gcweb. All rights reserved.
 //
 
@@ -27,8 +28,12 @@ class DraggableView: UIView {
     var originPoint: CGPoint!
     var overlayView: OverlayView!
     var information: UILabel!
+    var information2: UILabel!
+    var imageView: UIImageView!
     var xFromCenter: Float!
     var yFromCenter: Float!
+    
+    var pet: Pet!
 
     required init(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)!
@@ -38,11 +43,30 @@ class DraggableView: UIView {
         super.init(frame: frame)
 
         self.setupView()
+        
+        
+        imageView = UIImageView(frame: CGRect(x: 8, y: 8, width: self.frame.size.width - 16, height: self.frame.size.width - 16))
+        imageView.autoresizingMask = [.flexibleWidth, .flexibleHeight, .flexibleBottomMargin, .flexibleRightMargin, .flexibleLeftMargin, .flexibleTopMargin]
+        imageView.contentMode = .scaleAspectFit
+        imageView.clipsToBounds = true
+        
+        imageView.alpha = 1
+        self.addSubview(imageView)
 
-        information = UILabel(frame: CGRect(x: 0, y: 50, width: self.frame.size.width, height: 100))
+        information = UILabel(frame: CGRect(x: 8, y: self.frame.size.width - 8, width: self.frame.size.width - 16, height: (self.frame.size.height - self.frame.size.width)/2))
         information.text = "no info given"
+        information.font = UIFont(name: "AvenirNext-Regular", size: 30)
         information.textAlignment = NSTextAlignment.center
+        information.adjustsFontSizeToFitWidth = true
         information.textColor = UIColor.black
+        
+        
+        information2 = UILabel(frame: CGRect(x: 8, y: self.frame.size.width + 21, width: self.frame.size.width - 16, height: (self.frame.size.height - self.frame.size.width)/2))
+        information2.text = "no info given"
+        information2.font = UIFont(name: "AvenirNext-Regular", size: 18)
+        information2.textAlignment = NSTextAlignment.center
+        information2.adjustsFontSizeToFitWidth = true
+        information2.textColor = UIColor.black
 
         self.backgroundColor = UIColor.white
 
@@ -50,8 +74,9 @@ class DraggableView: UIView {
 
         self.addGestureRecognizer(panGestureRecognizer)
         self.addSubview(information)
+        self.addSubview(information2)
 
-        overlayView = OverlayView(frame: CGRect(x: self.frame.size.width/2-100, y: 0, width: 100, height: 100))
+        overlayView = OverlayView(frame: CGRect(x: 0, y: 0, width: self.frame.size.width, height: self.frame.size.height))
         overlayView.alpha = 0
         self.addSubview(overlayView)
 
@@ -99,9 +124,9 @@ class DraggableView: UIView {
 
     func updateOverlay(_ distance: CGFloat) -> Void {
         if distance > 0 {
-            overlayView.setMode(GGOverlayViewMode.ggOverlayViewModeRight)
+            overlayView.backgroundColor = UIColor.green
         } else {
-            overlayView.setMode(GGOverlayViewMode.ggOverlayViewModeLeft)
+            overlayView.backgroundColor = UIColor.orange
         }
         overlayView.alpha = CGFloat(min(fabsf(Float(distance))/100, 0.4))
     }
